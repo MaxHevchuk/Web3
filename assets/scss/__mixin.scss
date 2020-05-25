@@ -1,0 +1,11 @@
+@mixin pc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@mixin mobile_tablet ($flex_var, $font_var) {
+    flex: 1 0 $flex_var;
+    font-size: $font_var;
+    color: white;
+}
